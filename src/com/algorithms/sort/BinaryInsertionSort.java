@@ -26,7 +26,7 @@ public class BinaryInsertionSort {
             right = i;
 
             while (left < right) {
-                mid = (left + right) >> 1;
+                mid = left + ((right - left) >> 1);
                 if (key < array[mid])
                     right = mid;
                 else
