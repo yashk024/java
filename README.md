@@ -1,29 +1,55 @@
-# Data Structures and Algorithms Implementation in Java ☕
+# Data Structures and Algorithms in Java
 
-## Algorithms
+## directory
 
-### Searching Algorithms
-
-- Binary Search
-
-### Sorting Algorithms
-
-- Bubble Sort
-- Insertion Sort
-- Binary Insertion Sort
-- Selection Sort
-- Merge Sort
-- Quicksort
-- Counting Sort
-- Radix Sort
-- Heapsort
-- Shell Sort
-
-## Data Structures
-
-- Singly Linked List
-- Duobly Linked List
-- Stack
-- Queue
-- Binary Search Tree
-- HashMap
+- src
+    - com
+        - algorithms
+            - array
+                - [ArrayRotation](./src/com/algorithms/array/ArrayRotation.java)
+                - [MajorityElement](./src/com/algorithms/array/MajorityElement.java)
+            - conversion
+                - [DecimalToBinary](./src/com/algorithms/conversion/DecimalToBinary.java)
+            - dynamicprogramming
+                - [KadaneAlgorithm](./src/com/algorithms/dynamicprogramming/KadaneAlgorithm.java)
+            - math
+                - prime
+                    - [LeastPrimeFactor](./src/com/algorithms/math/prime/LeastPrimeFactor.java)
+                    - [PrimeFactorization](./src/com/algorithms/math/prime/PrimeFactorization.java)
+                    - [PrimeNumber](./src/com/algorithms/math/prime/PrimeNumber.java)
+                    - [SieveOfEratosthenes](./src/com/algorithms/math/prime/SieveOfEratosthenes.java)
+                - [BinaryExponentiation](./src/com/algorithms/math/BinaryExponentiation.java)
+                - [Factorial](./src/com/algorithms/math/Factorial.java)
+                - [FibonacciNumber](./src/com/algorithms/math/FibonacciNumber.java)
+                - [GCD](./src/com/algorithms/math/GCD.java)
+                - [LCM](./src/com/algorithms/math/LCM.java)
+                - [NarcissisticNumber](./src/com/algorithms/math/NarcissisticNumber.java)
+                - [PalindromeNumber](./src/com/algorithms/math/PalindromeNumber.java)
+                - [ReverseInteger](./src/com/algorithms/math/ReverseInteger.java)
+            - matrix
+                - [MatrixMultiplication](./src/com/algorithms/matrix/MatrixMultiplication.java)
+            - search
+                - [BinarySearch](./src/com/algorithms/search/BinarySearch.java)
+            - sort
+                - [BinaryInsertionSort](./src/com/algorithms/sort/BinaryInsertionSort.java)
+                - [BubbleSort](./src/com/algorithms/sort/BubbleSort.java)
+                - [CountingSort](./src/com/algorithms/sort/CountingSort.java)
+                - [HeapSort](./src/com/algorithms/sort/Heapsort.java)
+                - [InsertionSort](./src/com/algorithms/sort/InsertionSort.java)
+                - [MergeSort](./src/com/algorithms/sort/MergeSort.java)
+                - [QuickSort](./src/com/algorithms/sort/Quicksort.java)
+                - [RadixSort](./src/com/algorithms/sort/RadixSort.java)
+                - [SelectionSort](./src/com/algorithms/sort/SelectionSort.java)
+                - [ShellSort](./src/com/algorithms/sort/ShellSort.java)
+        - datastructures
+            - hashmap
+                - [HashMap](./src/com/datastructures/hashmap/HashMap.java)
+            - list
+                - [DoublyLinkedList](./src/com/datastructures/list/DoublyLinkedList.java)
+                - [SinglyLinkedList](./src/com/datastructures/list/SinglyLinkedList.java)
+            - queue
+                - [Queue](./src/com/datastructures/queue/Queue.java)
+            - stack
+                - [Stack](./src/com/datastructures/stack/Stack.java)
+            - tree
+                - [BinarySearchTree](./src/com/datastructures/tree/BinarySearchTree.java)
